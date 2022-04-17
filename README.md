@@ -7,6 +7,9 @@ truffle init
 # After creating a contract files with migration file run this command for compile
 truffle compile
 
+# RUN THE GANACHE CLI
+ganache-cli
+
 # For deploy smart contract run this command
 truffle migrate
 truffle migrate -network testnet    
