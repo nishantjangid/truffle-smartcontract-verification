@@ -10,6 +10,9 @@ truffle compile
 # RUN THE GANACHE CLI
 ganache-cli
 
+# Deploy smart contract command
+truffle deploy --network testnet
+
 # For deploy smart contract run this command
 truffle migrate
 truffle migrate -network testnet    
